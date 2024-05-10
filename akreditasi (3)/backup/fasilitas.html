@@ -1,0 +1,383 @@
+<div id="main-content" class="col-md-12" role="main" align="justify">
+  <div id="main-content" class="col-md-12" role="main" align="justify">
+    <div class="field-item even">
+      <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+      </script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+      </script>
+      <style>
+        .nav-item {
+          background-color: rgb(30, 39, 46) !important;
+          color: #ffffff;
+          border-bottom: 1px solid #ffffff;
+          width: 180px;
+        }
+
+        .nav-item a {
+          color: #ffffff;
+        }
+
+        .nav-item a:hover {
+          background-color: #0b4d70 !important;
+        }
+
+        .nav-item .active {
+          font-size: 16px !important;
+          background-color: #0b4d70 !important;
+          border-radius: 0px;
+        }
+      </style> <br>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-2 mb-3">
+            <ul class="nav flex-column" id="myTab" role="tablist">
+              <li class="nav-item active"> <a class="nav-link active" id="ruang-tab" data-toggle="tab" href="#ruang"
+                  role="tab" aria-controls="ruang" aria-selected="true" aria-expanded="false">Ruang Belajar </a>
+              </li>
+              <li class="nav-item"> <a class="nav-link" id="laboratorium-tab" data-toggle="tab" href="#laboratorium"
+                  role="tab" aria-controls="laboratorium" aria-selected="false" aria-expanded="false">Laboratorium </a>
+              </li>
+              <li class="nav-item"> <a class="nav-link" id="perpustakaan-tab" data-toggle="tab" href="#perpustakaan"
+                  role="tab" aria-controls="perpustakaan" aria-selected="false" aria-expanded="false">Perpustakaan</a>
+              </li>
+              <!-- <li class="nav-item "> <a class="nav-link " id="student-tab" data-toggle="tab" href="#student" role="tab"
+                  aria-controls="student" aria-selected="true" aria-expanded="false">Student Center </a>
+              </li>
+              <li class="nav-item"> <a class="nav-link" id="health-tab" data-toggle="tab" href="#health" role="tab"
+                  aria-controls="health" aria-selected="false" aria-expanded="false">Health Center </a>
+              </li> -->
+              <li class="nav-item"> <a class="nav-link" id="sistem-tab" data-toggle="tab" href="#sistem" role="tab"
+                  aria-controls="sistem" aria-selected="false" aria-expanded="false">Sistem Informasi</a>
+              </li>
+            </ul>
+          </div>
+          <!-- /.col-md-4 -->
+          <div class="col-md-10">
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane in active" id="ruang" role="tabpanel" aria-labelledby="ruang-tab"
+                style="padding-left: 20px;">
+                <h2>Ruang Belajar</h2>
+                <table class="table">
+                  <tbody>
+                    <tr>
+                      <th>Foto</th>
+                      <th>Keterangan</th>
+                    </tr>
+                    <tr>
+                      <td>
+                        <a href="#" target="_blank" title="#!">
+                          <img
+                            src="http://if.unesa.ac.id/wp-content/uploads/2015/02/IMG_20150224_113306-e1424753190235.jpg"
+                            alt="Ruang RE 4" width="300" height="225"></a>
+                      </td>
+                      <td>Ruang Kelas & Suasana Perkuliahan</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <a href="#" target="_blank" title="#!">
+                          <img
+                            src="http://if.unesa.ac.id/wp-content/uploads/2015/02/IMG_20150224_113014-e1424753251770.jpg"
+                            alt="Ruang RE 4" width="300" height="225"></a>
+                      </td>
+                      <td>Ruang Kelas & Suasana Perkuliahan</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <a href="#" target="_blank" title="#!">
+                          <img
+                            src="http://if.unesa.ac.id/wp-content/uploads/2015/02/IMG_20150224_113030-e1424753233133.jpg"
+                            alt="Ruang RE 4" width="300" height="225"></a>
+                      </td>
+                      <td>Ruang Kelas & Suasana Perkuliahan</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="tab-pane fade" id="laboratorium" role="tabpanel" aria-labelledby="laboratorium-tab"
+                style="padding-left: 20px;">
+                <h2>Laboratorium</h2>
+                <table class="table">
+                  <tbody>
+                    <tr>
+                      <th>Foto</th>
+                      <th>Keterangan</th>
+                    </tr>
+                    <tr>
+                      <td>
+                        <a href="#" target="_blank" title="#!">
+                          <img src="http://if.unesa.ac.id/wp-content/uploads/2015/02/RPL.jpg" alt="Ruang RE 4"
+                            width="300" height="225"></a>
+                      </td>
+                      <td>Lab. RPL</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <a href="#" target="_blank" title="#!">
+                          <img src="http://if.unesa.ac.id/wp-content/uploads/2015/02/Jarkom.jpg" alt="Ruang RE 4"
+                            width="300" height="225"></a>
+                      </td>
+                      <td>Lab. Jarkom</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <a href="#" target="_blank" title="#!">
+                          <img src="http://if.unesa.ac.id/wp-content/uploads/2015/02/Multimedia.jpg" alt="Ruang RE 4"
+                            width="300" height="225"></a>
+                      </td>
+                      <td>Lab. Sistem Informasi</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <a href="#" target="_blank" title="#!">
+                          <img src="http://if.unesa.ac.id/wp-content/uploads/2015/02/0085f-teknikinformatika11.jpg"
+                            alt="Ruang RE 4" width="300" height="225"></a>
+                      </td>
+                      <td>Lab. Multimedia Kreatif</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="tab-pane fade" id="perpustakaan" role="tabpanel" aria-labelledby="perpustakaan-tab"
+                style="padding-left: 20px;">
+                <h2>Perpustakaan</h2>
+                <table class="table">
+                  <tbody>
+                    <tr>
+                      <td>
+                        <a href="#" target="_blank" title="#!">
+                          <img src="http://if.unesa.ac.id/wp-content/uploads/2015/02/IMG_20141125_140036-1024x768.jpg"
+                            alt="Ruang RE 4" width="300" height="225"></a>
+                      </td>
+                      <td>Ruang Baca Jurusan Teknik Informatika di Gedung B1 Lantai 2</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <a href="#" target="_blank" title="#!">
+                          <img src="http://if.unesa.ac.id/wp-content/uploads/2015/02/IMG_20141125_140043-1024x768.jpg"
+                            alt="Ruang RE 4" width="300" height="225"></a>
+                      </td>
+                      <td>Ruang Baca Jurusan Teknik Informatika di Gedung B1 Lantai 2</td>
+                    </tr>
+                  </tbody>
+
+                </table>
+              </div>
+              <div class="tab-pane" id="student" role="tabpanel" aria-labelledby="student-tab"
+                style="padding-left: 20px;">
+                <h2>Student Center</h2>
+              </div>
+              <div class="tab-pane fade" id="health" role="tabpanel" aria-labelledby="health-tab"
+                style="padding-left: 20px;">
+                <h2>Health Center</h2>
+              </div>
+              <div class="tab-pane fade" id="sistem" role="tabpanel" aria-labelledby="sistem-tab"
+                style="padding-left: 20px;">
+                <h2>Sistem Informasi</h2>
+                <table class="table">
+                  <tbody>
+                    <tr style="text-align: left">
+                      <td>1.</td>
+                      <td>SIMUNA (Sistem Informasi Remunerasi)</td>
+                      <td><a href="https://simuna.unesa.ac.id/">https://simuna.unesa.ac.id/</a></td>
+                    </tr>
+                    <tr style="text-align: left">
+                      <td>2</td>
+                      <td>I-SDM (Sistem informasi sumber daya manusia UNESA )</td>
+                      <td><a href="https://i-sdm.unesa.ac.id/">https://i-sdm.unesa.ac.id/</a></td>
+                    </tr>
+                    <tr style="text-align: left">
+                      <td>3</td>
+                      <td>SIMBKD</td>
+                      <td><a href="https://sso.unesa.ac.id/">https://sso.unesa.ac.id/</a></td>
+                    </tr>
+                    <tr style="text-align: left">
+                      <td>4</td>
+                      <td>SIMONTASI (sistem Informasi Monitoring TA dan Skripsi)</td>
+                      <td><a href="https://simontasiplus.unesa.ac.id/">https://simontasiplus.unesa.ac.id/</a></td>
+                    </tr>
+                    <tr style="text-align: left">
+                      <td>5</td>
+                      <td>SIMAS (Sistem Informasi Manajemen Arsip)</td>
+                      <td><a href="https://simas.unesa.ac.id/">https://simas.unesa.ac.id/</a></td>
+                    </tr>
+                    <tr style="text-align: left">
+                      <td>6</td>
+                      <td>SIAKADU (Sistem Informasi Akademik Unesa)</td>
+                      <td><a href="https://siakadu.unesa.ac.id/">https://siakadu.unesa.ac.id/</a></td>
+                    </tr>
+                    <tr style="text-align: left">
+                      <td>7</td>
+                      <td>SIMCV</td>
+                      <td><a href="https://cv.unesa.ac.id/">https://cv.unesa.ac.id/</a></td>
+                    </tr>
+                    <tr style="text-align: left">
+                      <td>8</td>
+                      <td>E-Layanan</td>
+                      <td><a href="https://e-layanan.unesa.ac.id/">https://e-layanan.unesa.ac.id/</a></td>
+                    </tr>
+                    <tr style="text-align: left">
+                      <td>9</td>
+                      <td>E-Catalog</td>
+                      <td><a href="https://e-catalog.unesa.ac.id/">https://e-catalog.unesa.ac.id/</a></td>
+                    </tr>
+                    <tr style="text-align: left">
+                      <td>10</td>
+                      <td>SIPENA (Sistem Informasi Non Akademik)</td>
+                      <td><a href="https://sipena.unesa.ac.id/dashboard">https://sipena.unesa.ac.id/dashboard</a></td>
+                    </tr>
+                    <tr style="text-align: left">
+                      <td>11</td>
+                      <td>OPAC Integrated Online Public Access Catalogue</td>
+                      <td><a href="https://iopac.unesa.ac.id/">https://iopac.unesa.ac.id/</a></td>
+                    </tr>
+                    <tr style="text-align: left">
+                      <td>12</td>
+                      <td>SIMSKP</td>
+                      <td><a href=""></a></td>
+                    </tr>
+                    <tr style="text-align: left">
+                      <td>13</td>
+                      <td>SIPENMARU (Sistem Penerimaan Mahasiswa Baru)</td>
+                      <td><a href="https://sipenmaru.unesa.ac.id/">https://sipenmaru.unesa.ac.id/</a></td>
+                    </tr>
+                    <tr style="text-align: left">
+                      <td>14</td>
+                      <td>Repository UNESA</td>
+                      <td><a href="https://repository.unesa.ac.id/">https://repository.unesa.ac.id/</a></td>
+                    </tr>
+                    <tr style="text-align: left">
+                      <td>15</td>
+                      <td>Alumni UNESA</td>
+                      <td><a href="https://alumni.unesa.ac.id/">https://alumni.unesa.ac.id/</a></td>
+                    </tr>
+                    <tr style="text-align: left">
+                      <td>16</td>
+                      <td>SIMYUDISIUM</td>
+                      <td><a href="https://yudisium.unesa.ac.id/loginapp">https://yudisium.unesa.ac.id/loginapp</a></td>
+                    </tr>
+                    <tr style="text-align: left">
+                      <td>17</td>
+                      <td>E-Office Terintegrasi</td>
+                      <td><a href="https://e-office.unesa.ac.id/">https://e-office.unesa.ac.id/</a></td>
+                    </tr>
+                    <tr style="text-align: left">
+                      <td>18</td>
+                      <td>Unggah karya Akhir</td>
+                      <td><a href="https://digilib.unesa.ac.id/">https://digilib.unesa.ac.id/</a></td>
+                    </tr>
+                    <tr style="text-align: left">
+                      <td>19</td>
+                      <td>SIMKERMA (Sistem Infomarsi Kerjasama)</td>
+                      <td><a href="https://simkerma.unesa.ac.id/">https://simkerma.unesa.ac.id/</a></td>
+                    </tr>
+                    <tr style="text-align: left">
+                      <td>20</td>
+                      <td>EVENT UNESA</td>
+                      <td><a href="https://digilib.unesa.ac.id/">https://digilib.unesa.ac.id/</a></td>
+                    </tr>
+                    <tr style="text-align: left">
+                      <td>21</td>
+                      <td>SIM LPPM</td>
+                      <td><a href="https://simlppm.unesa.ac.id/">https://simlppm.unesa.ac.id/</a></td>
+                    </tr>
+                    <tr style="text-align: left">
+                      <td>22</td>
+                      <td>E-Layanan Mobile Apps Unesa</td>
+                      <td><a href=""></a></td>
+                    </tr>
+                    <tr style="text-align: left">
+                      <td>23</td>
+                      <td>E-Office Mobile Apps Unesa</td>
+                      <td><a href=""></a></td>
+                    </tr>
+                    <tr style="text-align: left">
+                      <td>24</td>
+                      <td>Merdeka Belajar</td>
+                      <td><a href="https://vinesa.unesa.ac.id/">https://vinesa.unesa.ac.id/</a></td>
+                    </tr>
+                    <tr style="text-align: left">
+                      <td>25</td>
+                      <td>MELISA (Sistem Informasi Merdeka Belajar Kampus Merdeka )</td>
+                      <td><a href="https://melisa.unesa.ac.id/">https://melisa.unesa.ac.id/</a></td>
+                    </tr>
+                    <tr style="text-align: left">
+                      <td>26</td>
+                      <td>SINOVI</td>
+                      <td><a href=""></a></td>
+                    </tr>
+                    <tr style="text-align: left">
+                      <td>27</td>
+                      <td>SIDINA (Sistem Informasi Digital Signature)</td>
+                      <td><a href="https://sidina.unesa.ac.id/">https://sidina.unesa.ac.id/</a></td>
+                    </tr>
+                    <tr style="text-align: left">
+                      <td>28</td>
+                      <td>SIANI (Sistem Informasi Antrian Ijazah)</td>
+                      <td><a href="https://siani.unesa.ac.id/">https://siani.unesa.ac.id/</a></td>
+                    </tr>
+                    <tr style="text-align: left">
+                      <td>29</td>
+                      <td>SIMIA</td>
+                      <td><a href="https://simia.unesa.ac.id/">https://simia.unesa.ac.id/</a></td>
+                    </tr>
+                    <tr style="text-align: left">
+                      <td>30</td>
+                      <td>SIMPELMAWA</td>
+                      <td><a href="https://simpelmawa.unesa.ac.id/login">https://simpelmawa.unesa.ac.id/login</a></td>
+                    </tr>
+                    <tr style="text-align: left">
+                      <td>31</td>
+                      <td>SIPROMAS</td>
+                      <td><a href="https://simpromas.unesa.ac.id/">https://simpromas.unesa.ac.id/</a></td>
+                    </tr>
+                    <tr style="text-align: left">
+                      <td>32</td>
+                      <td>KATYA</td>
+                      <td><a href="https://katya.unesa.ac.id/">https://katya.unesa.ac.id/</a></td>
+                    </tr>
+                    <tr style="text-align: left">
+                      <td>33</td>
+                      <td>SIM UKT</td>
+                      <td><a href="https://ukt.unesa.ac.id/">https://ukt.unesa.ac.id/</a></td>
+                    </tr>
+                    <tr style="text-align: left">
+                      <td>34</td>
+                      <td>SISTER UNESA</td>
+                      <td><a href="https://simas.unesa.ac.id/">https://simas.unesa.ac.id/</a></td>
+                    </tr>
+                    <tr style="text-align: left">
+                      <td>35</td>
+                      <td>RPL</td>
+                      <td><a href="https://rpl.unesa.ac.id/">https://rpl.unesa.ac.id/</a></td>
+                    </tr>
+                    <tr style="text-align: left">
+                      <td>36</td>
+                      <td>SIMAGANG</td>
+                      <td><a href="https://magang.unesa.ac.id/">https://magang.unesa.ac.id/</a></td>
+                    </tr>
+                    <tr style="text-align: left">
+                      <td>37</td>
+                      <td>SIMLIBTABMAS</td>
+                      <td><a
+                          href="https://simlitabmas.kemdikbud.go.id/login">https://simlitabmas.kemdikbud.go.id/login</a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <!-- /.col-md-8 -->
+        </div>
+      </div>
+      <!-- /.container -->
+    </div>
+  </div>
+</div>

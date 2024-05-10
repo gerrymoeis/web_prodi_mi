@@ -1,0 +1,883 @@
+<div class="field field-name-body field-type-text-with-summary field-label-hidden">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <div class="field-items">
+    <div class="field-item even">
+      <p>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      </p>
+      <style type="text/css">
+        <!--/*
+        -->
+      <![CDATA[/* ><!--*/
+  * {box-sizing: border-box}
+  
+  /* Set height of body and the document to 100% */
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .w3-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+  
+  /* Style tab links */
+  .tablink {
+    border-radius: 0px !important;
+    background-image: none !important;
+    background-color: rgb(30, 39, 46) !important;
+    color: white;
+    float: left;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 25px;
+    font-family: Arial !important;
+    font-size: 12px !important;
+    font-weight: normal !important;
+    text-decoration: none !important;
+    border: none;
+    border-left: #777 1px solid;
+    border-right: #777 1px solid;
+    width: 33.33%;
+  display: block;
+  }
+  
+  .tablink-group .tablink:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  
+  .tablink:hover {
+    background-color: #0b4d70 !important;
+    border-bottom: 2px solid #031253;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.03);
+    -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.03);
+    -moz-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.03);
+    -o-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.03);
+  }
+  
+  .tablink.active {
+  background-color: white !important;
+  color: #0b4d70 !important;
+  font-weight: bold !important;
+  font-size: 16px !important;
+  border-left: none;
+  border-right: none;
+    border-bottom: 2px solid #031253;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.03);
+    -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.03);
+    -moz-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.03);
+    -o-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.03);
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 100px 20px;
+    height: 100%;
+    border: 1px solid;
+  }
+  
+  .dda2020 ol {
+    margin-top: 5px;
+  }
+  .dda2020 ol li{
+      list-style: none;
+      counter-increment: myIndex;
+  }
+  
+  .dda2020 ol li:before{
+      content: "("counter(myIndex)") ";
+  }
+  .nav-item {
+          background-color: rgb(30, 39, 46) !important;
+          color: #ffffff;
+          border-bottom: 1px solid #ffffff;
+          width: 180px;
+        }
+
+        .nav-item a {
+          color: #ffffff;
+        }
+
+        .nav-item a:hover {
+          background-color: #0b4d70 !important;
+        }
+
+        .nav-item .active {
+          font-size: 16px !important;
+          background-color: #0b4d70 !important;
+          border-radius: 0px;
+        }
+  
+      </style>
+      <div class="tablink-group"><button class="tablink active" id="defaultOpen"
+          onclick="openPage('UPPS', this)">Pendidikan</button><button class="tablink"
+          onclick="openPage('ProgramStudi', this)">Penelitian</button><button class="tablink"
+          onclick="openPage('DokumentasiVideo', this)">Pengabdian Pada Masyarakat</button></div>
+      <div class="tabcontent " id="UPPS" style="display: block;">
+        <div class="w3-animate-top">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-2 mb-3">
+                <ul class="nav flex-column" id="myTab" role="tablist">
+                  <li class="nav-item"> <a class="nav-link " id="ruang-tab" data-toggle="tab" href="#ruang"
+                      role="tab" aria-controls="ruang" aria-selected="true" aria-expanded="false">2019 </a>
+                  </li>
+                  <li class="nav-item"> <a class="nav-link" id="laboratorium-tab" data-toggle="tab" href="#laboratorium"
+                      role="tab" aria-controls="laboratorium" aria-selected="false" aria-expanded="false">2020
+                    </a>
+                  </li>
+                  <li class="nav-item"> <a class="nav-link" id="perpustakaan-tab" data-toggle="tab" href="#perpustakaan"
+                      role="tab" aria-controls="perpustakaan" aria-selected="false" aria-expanded="false">2021</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- /.col-md-4 -->
+              <div class="col-md-10">
+                <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade" id="ruang" role="tabpanel" aria-labelledby="ruang-tab"
+                    style="padding-left: 20px;">
+                    <h2>Sikap</h2>
+                    <table class="table table-hover">
+                      <tbody>
+                        <tr>
+                          <td>
+                            1
+                          </td>
+                          <td>Beriman dan bertaqwa kepada Tuhan Yang Maha Esa.</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            2
+                          </td>
+                          <td>Mengintegrasikan nilai, norma, dan etika akademik</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            3
+                          </td>
+                          <td>Menunjukan sikap bertanggungjawab atas pekerjaan di bidang keahlianya secara mandiri.</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="tab-pane fade" id="laboratorium" role="tabpanel" aria-labelledby="laboratorium-tab"
+                    style="padding-left: 20px;">
+                    <h2>Keterampilan Umum</h2>
+                    <table class="table table-hover">
+                      <tbody>
+                        <tr>
+                          <td>
+                            1
+                          </td>
+                          <td>Mampu menerapkan pemikiran logis, kritis, dan inovatif dalam melakukan pekerjaan analisis,
+                            perancangan, pengerjaan, ujicoba, dan perawatan rekayasa perangkat lunak di bidang teknologi
+                            informasi.</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            2
+                          </td>
+                          <td>Mampu mengkaji penerapan ilmu pengetahuan dan teknologi dalam bidang teknologi informasi untuk
+                            menghasilkan prototype, prosedur baku dan atau perancangan serta menyusun hasil kajiannya dalam
+                            bentuk kertas kerja, makalah, poster dan lain sebagainya.</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            3
+                          </td>
+                          <td>Mampu mengelola pembelajaran secara mandiri.</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            4
+                          </td>
+                          <td>Mampu menunjukkan kinerja bermutu dan terukur</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            5
+                          </td>
+                          <td>Mampu bertanggungjawab terhadap hasil kerja kelompok dan melakukan supervisi dan evaluasi
+                            terhadap penyelesaian pekerjaan rekayasa perangkat lunak</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            6
+                          </td>
+                          <td>Mampu memberikan solusi dengan sifat dan konteks yang sesuai dengan bidang keahlian terapannya
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="tab-pane fade" id="perpustakaan" role="tabpanel" aria-labelledby="perpustakaan-tab"
+                    style="padding-left: 20px;">
+                    <h2>Pengetahuan</h2>
+                    <table class="table table-hover">
+                      <tbody>
+                        <tr>
+                          <td>
+                            1
+                          </td>
+                          <td>Menguasai konsep teoritis sains alam, aplikasi matematika teknik; prinsip-prinsip rekayasa
+                            (engineering principles), sains rekayasa dan perancangan rekayasa yang diperlukan untuk analisis
+                            dan perancangan sistem, proses, produk atau komponen pada rekayasa perangkat lunak</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            2
+                          </td>
+                          <td>Menguasai konsep prinsip-prinsip rekayasa (engineering principles), sains rekayasa dan
+                            perancangan rekayasa yang diperlukan untuk analisis dan perancangan perangkat lunak.</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            3
+                          </td>
+                          <td>Menguasai prinsip dan teknik perancangan perangkat lunak menggunakan teknologi pada tataran
+                            praktikal (practical area)</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            4
+                          </td>
+                          <td>Menguasai konsep teoritis teknologi rekayasa yang diperlukan pada rekayasa perangkat lunak.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            5
+                          </td>
+                          <td>Menguasai pengetahuan tentang codes dan standard yang berlaku untuk penyelesaian masalah
+                            rekayasa perangkat lunak</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            6
+                          </td>
+                          <td>Menguasai keterampilan berkomunikasi menggunakan bahasa indonesia maupun bahasa asing
+                            (inggris).
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            7
+                          </td>
+                          <td>Menguasai prinsip dan issue terkini dalam ekonomi, sosial, ekologi secara umum.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            8
+                          </td>
+                          <td>Menguasai pengetahuan tentang perkembangan teknologi terbaru dan terkini.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            9
+                          </td>
+                          <td>Menguasai pengetahuan tentang teknik berkomunikasi
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            10
+                          </td>
+                          <td>Menguasai pengetahuan prosedural dan operasional kerja bengkel dan kegiatan laboratorium serta
+                            pelaksanaan keselamatan dan kesehatan kerja (K3) yang mengacu kepada konsep SHE (safety, health,
+                            and environment), dan lain sebagainya
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="tab-pane" id="student" role="tabpanel" aria-labelledby="student-tab"
+                    style="padding-left: 20px;">
+                    <h2>Student Center</h2>
+                  </div>
+                  <div class="tab-pane fade" id="health" role="tabpanel" aria-labelledby="health-tab"
+                    style="padding-left: 20px;">
+                    <h2>Health Center</h2>
+                  </div>
+                  <div class="tab-pane fade" id="sistem" role="tabpanel" aria-labelledby="sistem-tab"
+                    style="padding-left: 20px;">
+                    <h2>Keterampilan Khusus</h2>
+                    <table class="table table-hover">
+                      <tbody>
+                        <tr>
+                          <td>
+                            1
+                          </td>
+                          <td>Mampu menerapkan matematika, dan prinsip rekayasa ke dalam prosedur, proses, sistem, atau
+                            metodologi terapan bidang rekayasa perangkat lunak</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            2
+                          </td>
+                          <td>Mampu mengidentifikasi, memformulasikan, melakukan penelusuran referensi atau standar,
+                            menganalisis dan menyelesaikan masalah rekayasa perangkat lunak menggunakan perangkat analisa
+                            pada bidang teknologi informasi.</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            3
+                          </td>
+                          <td>Mampu merancang dan mewujudkan sistem informasi sesuai dengan kebutuhan fungsional dan
+                            kebutuhan non fungsional secara spesifik dengan pertimbangan yang tepat terhadap masalah
+                            keamanan dan kesehatan publik, kultural, sosial dan lingkungan dengan mengacu kepada metode dan
+                            standar industri</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            4
+                          </td>
+                          <td>Mampu memilih sumberdaya dan memanfaatkan perangkat perancangan dan analisis rekayasa berbasis
+                            teknologi informasi dan komputasi yang mengacu kepada metode dan standar industri.</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            5
+                          </td>
+                          <td>Mampu meningkatkan kinerja atau mutu suatu proses melalui pengujian, pengukuran obyek kerja,
+                            analisis dan interpretasi data sesuai prosedur dan standar.</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            6
+                          </td>
+                          <td>Mampu menggunakan teknologi modern dalam melaksanakan pekerjaan di bidang teknologi rekayasa
+                            perangkat lunak.
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <!-- /.col-md-8 -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tabcontent dda2020" id="ProgramStudi" style="display: none;">
+        <div class="w3-animate-top">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-2 mb-3">
+                <ul class="nav flex-column" id="myTab" role="tablist">
+                  <li class="nav-item"> <a class="nav-link " id="ruang-tab2" data-toggle="tab" href="#ruang2"
+                      role="tab" aria-controls="ruang" aria-selected="true" aria-expanded="false">2019 </a>
+                  </li>
+                  <li class="nav-item"> <a class="nav-link" id="laboratorium-tab" data-toggle="tab" href="#laboratorium"
+                      role="tab" aria-controls="laboratorium" aria-selected="false" aria-expanded="false">2020
+                    </a>
+                  </li>
+                  <li class="nav-item"> <a class="nav-link" id="perpustakaan-tab" data-toggle="tab" href="#perpustakaan"
+                      role="tab" aria-controls="perpustakaan" aria-selected="false" aria-expanded="false">2021</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- /.col-md-4 -->
+              <div class="col-md-10">
+                <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade" id="ruang2" role="tabpanel" aria-labelledby="ruang-tab2"
+                    style="padding-left: 20px;">
+                    <h2>Sikap</h2>
+                    <table class="table table-hover">
+                      <tbody>
+                        <tr>
+                          <td>
+                            1
+                          </td>
+                          <td>Beriman dan bertaqwa kepada Tuhan Yang Maha Esa.</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            2
+                          </td>
+                          <td>Mengintegrasikan nilai, norma, dan etika akademik</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            3
+                          </td>
+                          <td>Menunjukan sikap bertanggungjawab atas pekerjaan di bidang keahlianya secara mandiri.</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="tab-pane fade" id="laboratorium" role="tabpanel" aria-labelledby="laboratorium-tab"
+                    style="padding-left: 20px;">
+                    <h2>Keterampilan Umum</h2>
+                    <table class="table table-hover">
+                      <tbody>
+                        <tr>
+                          <td>
+                            1
+                          </td>
+                          <td>Mampu menerapkan pemikiran logis, kritis, dan inovatif dalam melakukan pekerjaan analisis,
+                            perancangan, pengerjaan, ujicoba, dan perawatan rekayasa perangkat lunak di bidang teknologi
+                            informasi.</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            2
+                          </td>
+                          <td>Mampu mengkaji penerapan ilmu pengetahuan dan teknologi dalam bidang teknologi informasi untuk
+                            menghasilkan prototype, prosedur baku dan atau perancangan serta menyusun hasil kajiannya dalam
+                            bentuk kertas kerja, makalah, poster dan lain sebagainya.</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            3
+                          </td>
+                          <td>Mampu mengelola pembelajaran secara mandiri.</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            4
+                          </td>
+                          <td>Mampu menunjukkan kinerja bermutu dan terukur</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            5
+                          </td>
+                          <td>Mampu bertanggungjawab terhadap hasil kerja kelompok dan melakukan supervisi dan evaluasi
+                            terhadap penyelesaian pekerjaan rekayasa perangkat lunak</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            6
+                          </td>
+                          <td>Mampu memberikan solusi dengan sifat dan konteks yang sesuai dengan bidang keahlian terapannya
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="tab-pane fade" id="perpustakaan" role="tabpanel" aria-labelledby="perpustakaan-tab"
+                    style="padding-left: 20px;">
+                    <h2>Pengetahuan</h2>
+                    <table class="table table-hover">
+                      <tbody>
+                        <tr>
+                          <td>
+                            1
+                          </td>
+                          <td>Menguasai konsep teoritis sains alam, aplikasi matematika teknik; prinsip-prinsip rekayasa
+                            (engineering principles), sains rekayasa dan perancangan rekayasa yang diperlukan untuk analisis
+                            dan perancangan sistem, proses, produk atau komponen pada rekayasa perangkat lunak</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            2
+                          </td>
+                          <td>Menguasai konsep prinsip-prinsip rekayasa (engineering principles), sains rekayasa dan
+                            perancangan rekayasa yang diperlukan untuk analisis dan perancangan perangkat lunak.</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            3
+                          </td>
+                          <td>Menguasai prinsip dan teknik perancangan perangkat lunak menggunakan teknologi pada tataran
+                            praktikal (practical area)</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            4
+                          </td>
+                          <td>Menguasai konsep teoritis teknologi rekayasa yang diperlukan pada rekayasa perangkat lunak.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            5
+                          </td>
+                          <td>Menguasai pengetahuan tentang codes dan standard yang berlaku untuk penyelesaian masalah
+                            rekayasa perangkat lunak</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            6
+                          </td>
+                          <td>Menguasai keterampilan berkomunikasi menggunakan bahasa indonesia maupun bahasa asing
+                            (inggris).
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            7
+                          </td>
+                          <td>Menguasai prinsip dan issue terkini dalam ekonomi, sosial, ekologi secara umum.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            8
+                          </td>
+                          <td>Menguasai pengetahuan tentang perkembangan teknologi terbaru dan terkini.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            9
+                          </td>
+                          <td>Menguasai pengetahuan tentang teknik berkomunikasi
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            10
+                          </td>
+                          <td>Menguasai pengetahuan prosedural dan operasional kerja bengkel dan kegiatan laboratorium serta
+                            pelaksanaan keselamatan dan kesehatan kerja (K3) yang mengacu kepada konsep SHE (safety, health,
+                            and environment), dan lain sebagainya
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="tab-pane" id="student" role="tabpanel" aria-labelledby="student-tab"
+                    style="padding-left: 20px;">
+                    <h2>Student Center</h2>
+                  </div>
+                  <div class="tab-pane fade" id="health" role="tabpanel" aria-labelledby="health-tab"
+                    style="padding-left: 20px;">
+                    <h2>Health Center</h2>
+                  </div>
+                  <div class="tab-pane fade" id="sistem" role="tabpanel" aria-labelledby="sistem-tab"
+                    style="padding-left: 20px;">
+                    <h2>Keterampilan Khusus</h2>
+                    <table class="table table-hover">
+                      <tbody>
+                        <tr>
+                          <td>
+                            1
+                          </td>
+                          <td>Mampu menerapkan matematika, dan prinsip rekayasa ke dalam prosedur, proses, sistem, atau
+                            metodologi terapan bidang rekayasa perangkat lunak</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            2
+                          </td>
+                          <td>Mampu mengidentifikasi, memformulasikan, melakukan penelusuran referensi atau standar,
+                            menganalisis dan menyelesaikan masalah rekayasa perangkat lunak menggunakan perangkat analisa
+                            pada bidang teknologi informasi.</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            3
+                          </td>
+                          <td>Mampu merancang dan mewujudkan sistem informasi sesuai dengan kebutuhan fungsional dan
+                            kebutuhan non fungsional secara spesifik dengan pertimbangan yang tepat terhadap masalah
+                            keamanan dan kesehatan publik, kultural, sosial dan lingkungan dengan mengacu kepada metode dan
+                            standar industri</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            4
+                          </td>
+                          <td>Mampu memilih sumberdaya dan memanfaatkan perangkat perancangan dan analisis rekayasa berbasis
+                            teknologi informasi dan komputasi yang mengacu kepada metode dan standar industri.</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            5
+                          </td>
+                          <td>Mampu meningkatkan kinerja atau mutu suatu proses melalui pengujian, pengukuran obyek kerja,
+                            analisis dan interpretasi data sesuai prosedur dan standar.</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            6
+                          </td>
+                          <td>Mampu menggunakan teknologi modern dalam melaksanakan pekerjaan di bidang teknologi rekayasa
+                            perangkat lunak.
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <!-- /.col-md-8 -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tabcontent dda2020" id="DokumentasiVideo" style="display: none;">
+        <div class="w3-animate-top">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-2 mb-3">
+                <ul class="nav flex-column" id="myTab" role="tablist">
+                  <li class="nav-item"> <a class="nav-link " id="ruang-tab" data-toggle="tab" href="#ruang"
+                      role="tab" aria-controls="ruang" aria-selected="true" aria-expanded="false">2019 </a>
+                  </li>
+                  <li class="nav-item"> <a class="nav-link" id="laboratorium-tab" data-toggle="tab" href="#laboratorium"
+                      role="tab" aria-controls="laboratorium" aria-selected="false" aria-expanded="false">2020
+                    </a>
+                  </li>
+                  <li class="nav-item"> <a class="nav-link" id="perpustakaan-tab" data-toggle="tab" href="#perpustakaan"
+                      role="tab" aria-controls="perpustakaan" aria-selected="false" aria-expanded="false">2021</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- /.col-md-4 -->
+              <div class="col-md-10">
+                <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade" id="ruang" role="tabpanel" aria-labelledby="ruang-tab"
+                    style="padding-left: 20px;">
+                    <h2>Sikap</h2>
+                    <table class="table table-hover">
+                      <tbody>
+                        <tr>
+                          <td>
+                            1
+                          </td>
+                          <td>Beriman dan bertaqwa kepada Tuhan Yang Maha Esa.</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            2
+                          </td>
+                          <td>Mengintegrasikan nilai, norma, dan etika akademik</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            3
+                          </td>
+                          <td>Menunjukan sikap bertanggungjawab atas pekerjaan di bidang keahlianya secara mandiri.</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="tab-pane fade" id="laboratorium" role="tabpanel" aria-labelledby="laboratorium-tab"
+                    style="padding-left: 20px;">
+                    <h2>Keterampilan Umum</h2>
+                    <table class="table table-hover">
+                      <tbody>
+                        <tr>
+                          <td>
+                            1
+                          </td>
+                          <td>Mampu menerapkan pemikiran logis, kritis, dan inovatif dalam melakukan pekerjaan analisis,
+                            perancangan, pengerjaan, ujicoba, dan perawatan rekayasa perangkat lunak di bidang teknologi
+                            informasi.</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            2
+                          </td>
+                          <td>Mampu mengkaji penerapan ilmu pengetahuan dan teknologi dalam bidang teknologi informasi untuk
+                            menghasilkan prototype, prosedur baku dan atau perancangan serta menyusun hasil kajiannya dalam
+                            bentuk kertas kerja, makalah, poster dan lain sebagainya.</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            3
+                          </td>
+                          <td>Mampu mengelola pembelajaran secara mandiri.</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            4
+                          </td>
+                          <td>Mampu menunjukkan kinerja bermutu dan terukur</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            5
+                          </td>
+                          <td>Mampu bertanggungjawab terhadap hasil kerja kelompok dan melakukan supervisi dan evaluasi
+                            terhadap penyelesaian pekerjaan rekayasa perangkat lunak</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            6
+                          </td>
+                          <td>Mampu memberikan solusi dengan sifat dan konteks yang sesuai dengan bidang keahlian terapannya
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="tab-pane fade" id="perpustakaan" role="tabpanel" aria-labelledby="perpustakaan-tab"
+                    style="padding-left: 20px;">
+                    <h2>Pengetahuan</h2>
+                    <table class="table table-hover">
+                      <tbody>
+                        <tr>
+                          <td>
+                            1
+                          </td>
+                          <td>Menguasai konsep teoritis sains alam, aplikasi matematika teknik; prinsip-prinsip rekayasa
+                            (engineering principles), sains rekayasa dan perancangan rekayasa yang diperlukan untuk analisis
+                            dan perancangan sistem, proses, produk atau komponen pada rekayasa perangkat lunak</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            2
+                          </td>
+                          <td>Menguasai konsep prinsip-prinsip rekayasa (engineering principles), sains rekayasa dan
+                            perancangan rekayasa yang diperlukan untuk analisis dan perancangan perangkat lunak.</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            3
+                          </td>
+                          <td>Menguasai prinsip dan teknik perancangan perangkat lunak menggunakan teknologi pada tataran
+                            praktikal (practical area)</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            4
+                          </td>
+                          <td>Menguasai konsep teoritis teknologi rekayasa yang diperlukan pada rekayasa perangkat lunak.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            5
+                          </td>
+                          <td>Menguasai pengetahuan tentang codes dan standard yang berlaku untuk penyelesaian masalah
+                            rekayasa perangkat lunak</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            6
+                          </td>
+                          <td>Menguasai keterampilan berkomunikasi menggunakan bahasa indonesia maupun bahasa asing
+                            (inggris).
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            7
+                          </td>
+                          <td>Menguasai prinsip dan issue terkini dalam ekonomi, sosial, ekologi secara umum.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            8
+                          </td>
+                          <td>Menguasai pengetahuan tentang perkembangan teknologi terbaru dan terkini.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            9
+                          </td>
+                          <td>Menguasai pengetahuan tentang teknik berkomunikasi
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            10
+                          </td>
+                          <td>Menguasai pengetahuan prosedural dan operasional kerja bengkel dan kegiatan laboratorium serta
+                            pelaksanaan keselamatan dan kesehatan kerja (K3) yang mengacu kepada konsep SHE (safety, health,
+                            and environment), dan lain sebagainya
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="tab-pane" id="student" role="tabpanel" aria-labelledby="student-tab"
+                    style="padding-left: 20px;">
+                    <h2>Student Center</h2>
+                  </div>
+                  <div class="tab-pane fade" id="health" role="tabpanel" aria-labelledby="health-tab"
+                    style="padding-left: 20px;">
+                    <h2>Health Center</h2>
+                  </div>
+                  <div class="tab-pane fade" id="sistem" role="tabpanel" aria-labelledby="sistem-tab"
+                    style="padding-left: 20px;">
+                    <h2>Keterampilan Khusus</h2>
+                    <table class="table table-hover">
+                      <tbody>
+                        <tr>
+                          <td>
+                            1
+                          </td>
+                          <td>Mampu menerapkan matematika, dan prinsip rekayasa ke dalam prosedur, proses, sistem, atau
+                            metodologi terapan bidang rekayasa perangkat lunak</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            2
+                          </td>
+                          <td>Mampu mengidentifikasi, memformulasikan, melakukan penelusuran referensi atau standar,
+                            menganalisis dan menyelesaikan masalah rekayasa perangkat lunak menggunakan perangkat analisa
+                            pada bidang teknologi informasi.</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            3
+                          </td>
+                          <td>Mampu merancang dan mewujudkan sistem informasi sesuai dengan kebutuhan fungsional dan
+                            kebutuhan non fungsional secara spesifik dengan pertimbangan yang tepat terhadap masalah
+                            keamanan dan kesehatan publik, kultural, sosial dan lingkungan dengan mengacu kepada metode dan
+                            standar industri</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            4
+                          </td>
+                          <td>Mampu memilih sumberdaya dan memanfaatkan perangkat perancangan dan analisis rekayasa berbasis
+                            teknologi informasi dan komputasi yang mengacu kepada metode dan standar industri.</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            5
+                          </td>
+                          <td>Mampu meningkatkan kinerja atau mutu suatu proses melalui pengujian, pengukuran obyek kerja,
+                            analisis dan interpretasi data sesuai prosedur dan standar.</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            6
+                          </td>
+                          <td>Mampu menggunakan teknologi modern dalam melaksanakan pekerjaan di bidang teknologi rekayasa
+                            perangkat lunak.
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <!-- /.col-md-8 -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <script>
+        function openPage(pageName, elmnt) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+
+          tablinks = document.getElementsByClassName("tablink");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = "tablink";
+          }
+          elmnt.className += " active";
+          document.getElementById(pageName).style.display = "block";
+        }
+
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+      </script>
+    </div>
+  </div>
+</div>

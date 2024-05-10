@@ -1,0 +1,588 @@
+<div id="main-content" class="col-md-12" role="main" align="justify">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+  <div class="content node-halaman">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+      <div class="field-items">
+        <div class="field-item even">
+
+
+          <title></title>
+
+          <style>
+            *,
+            *:before,
+            *:after {
+              -moz-box-sizing: border-box;
+              -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+            }
+
+            .tile {
+              margin-right: 10px;
+              width: 15%;
+              height: auto;
+              display: flex;
+              background-size: cover;
+              cursor: pointer;
+              position: relative;
+              float: left;
+              padding: 0 0 19% 0;
+              background-repeat: no-repeat;
+              background-size: 50%;
+              background-position: center;
+            }
+
+            .hid-image-title {
+              width: 100%;
+              height: 40%;
+              color: white;
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              padding: 0 0.5rem 0.5rem !important;
+              font-size: .9em;
+              font-family: "Helvetica";
+              text-align: center;
+              line-height: 1em;
+              background-color: rgba(0, 0, 0, 0.5) !important;
+
+            }
+
+            .tile h4 {
+              margin-bottom: 0px;
+            }
+
+            .tile .hid-image-title {
+              transition: 0.8s ease;
+            }
+
+            /* Hover effect on image tiles */
+
+            .tile:hover .hid-image-title {
+              background-color: rgba(0, 0, 0, 0.8) !important;
+              height: 50%;
+            }
+
+            .tile:hover .hid-image-title .deskripsi-singkat {
+              display: none;
+            }
+
+            .tile:hover .hid-image-title .deskripsi-panjang {
+              display: block;
+            }
+
+            /* Pop up CSS light box */
+            /* Responsive tiles starts here. Breaking points: 1280, 1024, 600, 360 */
+
+            @media screen and (max-width: 1280px) {
+              .image-container .tile {
+                width: 15%;
+                padding-bottom: 25%;
+              }
+            }
+
+            @media screen and (max-width: 1024px) {
+              .image-container .tile {
+                width: 25%;
+                padding-bottom: 33.33%;
+              }
+            }
+
+            @media screen and (max-width: 740px) {
+              .image-container .tile {
+                font-size: 0.8em;
+              }
+            }
+
+            @media screen and (max-width: 600px) {
+              .image-container .tile {
+                width: 100%;
+                padding-bottom: 50%;
+                font-size: 0.8em;
+              }
+            }
+
+            @media screen and (max-width: 360px) {
+              .image-container .tile {
+                width: 100%;
+                padding-bottom: 100%;
+              }
+            }
+
+            .hid-image-title p {
+              color: #FFFFFF;
+              margin-top: 15px !important;
+            }
+
+            .hid-image-title .deskripsi-singkat {
+              display: block;
+            }
+
+            .hid-image-title .deskripsi-panjang {
+              display: none;
+              text-align: justify;
+            }
+          </style>
+
+          <div class="container-fluid">
+            <div class="image-container">
+              <div class="tile"
+                style="background-image: url(https://www.bloomsburycollections.com/resources/templating-kit/themes/collections/img/collections-logo.png);">
+                <div class="hid-image-title">
+                  <p>Bloomsbury Collections</p>
+                  <a href="
+                    https://e-resources.perpusnas.go.id/assets/terbitan/panduan/1644549754_2cb0b3f3a8d480035e81.pdf"
+                    class="btn btn-sm btn-primary" target="_blank"><i class="fe fe-file-text"></i> Panduan</a> <a
+                    href="https://e-resources.perpusnas.go.id:2050/login?user=20112500698&amp;ticket=2da13bae23e9073344e6157fb866e097%24u1646736189%24e&amp;url=https://www.bloomsburycollections.com"
+                    class="btn btn-sm btn-primary" target="_blank"><i class="fe fe-link"></i> Tautan</a>
+                </div>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="tile" style="background-image: url(https://sk.sagepub.com/images/sk/logo.svg);">
+                <div class="hid-image-title">
+                  <p>e-Book Sage</p>
+                  <a href="https://e-resources.perpusnas.go.id/assets/terbitan/panduan/1644812496_8bfb89a18f2776e971e3.pdf"
+                    class="btn btn-sm btn-primary" target="_blank"><i class="fe fe-file-text"></i> Panduan</a> <a
+                    href="https://sk.sagepub.com/" class="btn btn-sm btn-primary" target="_blank"><i
+                      class="fe fe-link"></i>
+                    Tautan</a>
+                </div>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="tile"
+                style="background-image: url(https://e-resources.perpusnas.go.id/assets/terbitan/logo/1618234553_3a134eb97c7b7097b64d.jpg);">
+                <div class="hid-image-title">
+                  <p>LexisNexis-LexRead</p>
+                  <a href="https://e-resources.perpusnas.go.id/assets/terbitan/panduan/1644633170_3429ccc38f9b9c46612c.pdf"
+                    class="btn btn-sm btn-primary" target="_blank"><i class="fe fe-file-text"></i> Panduan</a> <a
+                    href="https://www.lexread.lexisnexis.com/" class="btn btn-sm btn-primary" target="_blank"><i
+                      class="fe fe-link"></i> Tautan</a>
+                </div>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="tile"
+                style="background-image: url(https://e-resources.perpusnas.go.id/assets/terbitan/logo/1623062367_96d7bd35b313b3495c21.jpg);">
+                <div class="hid-image-title">
+                  <p>ClinicalKey Student</p>
+                  <a href="https://e-resources.perpusnas.go.id/assets/terbitan/panduan/1644982107_80bc3dbb8a52282b1bd6.pdf"
+                    class="btn btn-sm btn-primary" target="_blank"><i class="fe fe-file-text"></i> Panduan</a> <a
+                    href="https://www.clinicalkey.com/student" class="btn btn-sm btn-primary" target="_blank"><i
+                      class="fe fe-link"></i> Tautan</a>
+                </div>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="tile"
+                style="background-image: url(https://e-resources.perpusnas.go.id/assets/terbitan/logo/1645582974_3f1e47ab4df59fdf593c.png);">
+                <div class="hid-image-title">
+                  <p>Access Science</p>
+                  <a href="https://e-resources.perpusnas.go.id/assets/terbitan/panduan/1645779631_0aaad2c2b7f58dc88dc9.pdf"
+                    class="btn btn-sm btn-primary" target="_blank"><i class="fe fe-file-text"></i> Panduan</a> <a
+                    href="https://www.accessscience.com" class="btn btn-sm btn-primary" target="_blank"><i
+                      class="fe fe-link"></i>
+                    Tautan</a>
+                </div>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="tile"
+                style="background-image: url(https://e-resources.perpusnas.go.id/assets/terbitan/logo/img13.png);">
+                <div class="hid-image-title">
+                  <p>Lexis Nexis eJournal</p>
+                  <a href="https://e-resources.perpusnas.go.id/assets/terbitan/panduan/1645071777_feed94da129b205c4ebb.pdf"
+                    class="btn btn-sm btn-primary" target="_blank"><i class="fe fe-file-text"></i> Panduan</a> <a
+                    href="https://advance.lexis.com/searesearchhome/?pdmfid=1522468&amp;identityprofileid=82M68564580"
+                    class="btn btn-sm btn-primary" target="_blank"><i class="fe fe-link"></i> Tautan</a>
+                </div>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="tile"
+                style="background-image: url(https://e-resources.perpusnas.go.id/assets/terbitan/logo/1610953696_5e1174819e54988a4f11.png);">
+                <div class="hid-image-title">
+                  <p>Proquest Statistical Abstract</p>
+                  <a href="https://e-resources.perpusnas.go.id/assets/terbitan/panduan/1644550650_76f446d0d94f167e7b9a.pdf"
+                    class="btn btn-sm btn-primary" target="_blank"><i class="fe fe-file-text"></i> Panduan</a> <a
+                    href="https://search.proquest.com/ip" class="btn btn-sm btn-primary" target="_blank"><i
+                      class="fe fe-link"></i> Tautan</a>
+                </div>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="tile"
+                style="background-image: url(https://e-resources.perpusnas.go.id/assets/terbitan/logo/1597097468_a317f70519ce04f2ead9.svg);">
+                <div class="hid-image-title">
+                  <p>[neliti] Repositori Studi Kebijakan Indonesia</p>
+                  <a href="https://e-resources.perpusnas.go.id/assets/terbitan/panduan/1644551326_8fd3062e782e11e1423f.pdf"
+                    class="btn btn-sm btn-primary" target="_blank"><i class="fe fe-file-text"></i> Panduan</a> <a
+                    href="https://www.neliti.com" class="btn btn-sm btn-primary" target="_blank"><i
+                      class="fe fe-link"></i>
+                    Tautan</a>
+                </div>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="tile"
+                style="background-image: url(https://e-resources.perpusnas.go.id/assets/terbitan/logo/1598205787_67e5a5c91d6eb85a9dda.png);">
+                <div class="hid-image-title">
+                  <p>Taylor &amp; Francis E-Book</p>
+                  <a href="https://e-resources.perpusnas.go.id/assets/terbitan/panduan/1645493203_8e18006c9c06cbd36094.pdf"
+                    class="btn btn-sm btn-primary" target="_blank"><i class="fe fe-file-text"></i> Panduan</a> <a
+                    href="https://e-resources.perpusnas.go.id/lib/103" class="btn btn-sm btn-primary" target="_blank"><i
+                      class="fe fe-link"></i> Tautan</a>
+                </div>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="tile"
+                style="background-image: url(https://e-resources.perpusnas.go.id/assets/terbitan/logo/img3.png);">
+                <div class="hid-image-title">
+                  <p>Balai Pustaka</p>
+                  <a href="https://e-resources.perpusnas.go.id/assets/terbitan/panduan/1590125750_b4d6a9bad8bec05b92b0.pdf"
+                    class="btn btn-sm btn-primary" target="_blank"><i class="fe fe-file-text"></i> Panduan</a> <a
+                    href="https://e-resources.perpusnas.go.id/lib/6" class="btn btn-sm btn-primary" target="_blank"><i
+                      class="fe fe-link"></i> Tautan</a>
+                  <!-- <a href="https://opac-bp.perpusnas.go.id/" class="btn btn-primary" target="_blank"> -->
+                </div>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="tile"
+                style="background-image: url(https://e-resources.perpusnas.go.id/assets/terbitan/logo/1598205917_3ae7c0f9757114081e71.png);">
+                <div class="hid-image-title">
+                  <p>World Scientific</p>
+                  <a href="https://e-resources.perpusnas.go.id/assets/terbitan/panduan/1644830180_dff4f984d3c4e9d4158a.pdf"
+                    class="btn btn-sm btn-primary" target="_blank"><i class="fe fe-file-text"></i> Panduan</a> <a
+                    href="https://e-resources.perpusnas.go.id/lib/104" class="btn btn-sm btn-primary" target="_blank"><i
+                      class="fe fe-link"></i> Tautan</a>
+                  <!-- <a href="https://www.worldscientific.com" class="btn btn-primary" target="_blank"> -->
+                </div>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="tile"
+                style="background-image: url(https://e-resources.perpusnas.go.id/assets/terbitan/logo/img18.png);">
+                <div class="hid-image-title">
+                  <p>Carano Pustaka Universitas Andalas</p>
+                  <a href="https://e-resources.perpusnas.go.id/assets/terbitan/panduan/1644550154_0b9bd4b4d41d19d58666.pdf"
+                    class="btn btn-sm btn-primary" target="_blank"><i class="fe fe-file-text"></i> Panduan</a> <a
+                    href="https://e-resources.perpusnas.go.id/lib/36" class="btn btn-sm btn-primary" target="_blank"><i
+                      class="fe fe-link"></i> Tautan</a>
+                  <!-- <a href="http://carano.pustaka.unand.ac.id" class="btn btn-primary" target="_blank"> -->
+                </div>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="tile"
+                style="background-image: url(https://e-resources.perpusnas.go.id/assets/terbitan/logo/1598267773_46dd1e454a8c05b4ac16.png);">
+                <div class="hid-image-title">
+                  <p>Wiley Online Book</p>
+                  <a href="https://e-resources.perpusnas.go.id/assets/terbitan/panduan/1644550737_d4bdd483a8a09064e00a.pdf"
+                    class="btn btn-sm btn-primary" target="_blank"><i class="fe fe-file-text"></i> Panduan</a> <a
+                    href="https://e-resources.perpusnas.go.id/lib/46" class="btn btn-sm btn-primary" target="_blank"><i
+                      class="fe fe-link"></i> Tautan</a>
+                  <!-- <a href="http://www.wileyonlinelibrary.com/onlinebooks" class="btn btn-primary" target="_blank"> -->
+
+                </div>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="tile"
+                style="background-image: url(https://e-resources.perpusnas.go.id/assets/terbitan/logo/img35.png);">
+                <div class="hid-image-title">
+                  <p>Springer Nature</p>
+                  <a href="https://e-resources.perpusnas.go.id/assets/terbitan/panduan/1644551390_310115d60500283293e5.pdf"
+                    class="btn btn-sm btn-primary" target="_blank"><i class="fe fe-file-text"></i> Panduan</a> <a
+                    href="https://e-resources.perpusnas.go.id/lib/41" class="btn btn-sm btn-primary" target="_blank"><i
+                      class="fe fe-link"></i> Tautan</a>
+                  <!-- <a href="https://link.springer.com/search?facet-content-type=%22Book%22&showAll=false#close" class="btn btn-primary" target="_blank"> -->
+                </div>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="tile"
+                style="background-image: url(https://e-resources.perpusnas.go.id/assets/terbitan/logo/cabi.png);">
+                <div class="hid-image-title">
+                  <p>CABI</p>
+                  <a href="https://e-resources.perpusnas.go.id/assets/terbitan/panduan/1644562923_e10145844cd2e623092e.pdf"
+                    class="btn btn-sm btn-primary" target="_blank"><i class="fe fe-file-text"></i> Panduan</a> <a
+                    href="https://e-resources.perpusnas.go.id/lib/44" class="btn btn-sm btn-primary" target="_blank"><i
+                      class="fe fe-link"></i> Tautan</a>
+                  <!-- <a href="https://www.cabi.org/cabebooks" class="btn btn-primary" target="_blank"> -->
+                </div>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="tile"
+                style="background-image: url(https://e-resources.perpusnas.go.id/assets/terbitan/logo/img2.png);">
+                <div class="hid-image-title">
+                  <p>Alexander Street Video</p>
+                  <a href="https://e-resources.perpusnas.go.id/assets/terbitan/panduan/1644549587_686c8c384940e139001e.pdf"
+                    class="btn btn-sm btn-primary" target="_blank"><i class="fe fe-file-text"></i> Panduan</a> <a
+                    href="https://e-resources.perpusnas.go.id/lib/22" class="btn btn-sm btn-primary" target="_blank"><i
+                      class="fe fe-link"></i> Tautan</a>
+                  <!-- <a href="https://video.alexanderstreet.com" class="btn btn-primary" target="_blank"> -->
+                </div>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="tile"
+                style="background-image: url(https://e-resources.perpusnas.go.id/assets/terbitan/logo/img1.png);">
+                <div class="hid-image-title">
+                  <p>Alexander Street Press</p>
+                  <a href="https://e-resources.perpusnas.go.id/assets/terbitan/panduan/1590125917_b1c396f12cf8b5ac9c94.pdf"
+                    class="btn btn-sm btn-primary" target="_blank"><i class="fe fe-file-text"></i> Panduan</a> <a
+                    href="https://e-resources.perpusnas.go.id/lib/21" class="btn btn-sm btn-primary" target="_blank"><i
+                      class="fe fe-link"></i> Tautan</a>
+                  <!-- <a href="https://search.alexanderstreet.com" class="btn btn-primary" target="_blank"> -->
+                </div>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="tile"
+                style="background-image: url(https://e-resources.perpusnas.go.id/assets/terbitan/logo/img34.png);">
+                <div class="hid-image-title">
+                  <p>Wiley Online Library</p>
+                  <a href="https://e-resources.perpusnas.go.id/assets/terbitan/panduan/1644551790_2bf048adb9938bc2bf1f.pdf"
+                    class="btn btn-sm btn-primary" target="_blank"><i class="fe fe-file-text"></i> Panduan</a> <a
+                    href="https://e-resources.perpusnas.go.id/lib/40" class="btn btn-sm btn-primary" target="_blank"><i
+                      class="fe fe-link"></i> Tautan</a>
+                  <!-- <a href="https://onlinelibrary.wiley.com" class="btn btn-primary" target="_blank"> -->
+                </div>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="tile"
+                style="background-image: url(https://e-resources.perpusnas.go.id/assets/terbitan/logo/img19.png);">
+                <div class="hid-image-title">
+                  <p>ScienceDirect</p>
+                  <a href="https://e-resources.perpusnas.go.id/assets/terbitan/panduan/1644631083_d7e54ba2855a37648e17.pdf"
+                    class="btn btn-sm btn-primary" target="_blank"><i class="fe fe-file-text"></i> Panduan</a> <a
+                    href="https://e-resources.perpusnas.go.id/lib/37" class="btn btn-sm btn-primary" target="_blank"><i
+                      class="fe fe-link"></i> Tautan</a>
+                  <!-- <a href="https://www.sciencedirect.com" class="btn btn-primary" target="_blank"> -->
+                </div>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="tile"
+                style="background-image: url(https://e-resources.perpusnas.go.id/assets/terbitan/logo/img14.png);">
+                <div class="hid-image-title">
+                  <p>myilibrary</p>
+                  <a href="https://e-resources.perpusnas.go.id/assets/terbitan/panduan/1644629916_2d998bd7bbbcde188577.pdf"
+                    class="btn btn-sm btn-primary" target="_blank"><i class="fe fe-file-text"></i> Panduan</a> <a
+                    href="https://e-resources.perpusnas.go.id/lib/2" class="btn btn-sm btn-primary" target="_blank"><i
+                      class="fe fe-link"></i> Tautan</a>
+                  <!-- <a href="https://lib.myilibrary.com" class="btn btn-primary" target="_blank"> -->
+                </div>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="tile"
+                style="background-image: url(https://e-resources.perpusnas.go.id/assets/terbitan/logo/img5.png);">
+                <div class="hid-image-title">
+                  <p>Cambridge University Press</p>
+                  <a href="https://e-resources.perpusnas.go.id/assets/terbitan/panduan/1644551245_4a49888cafb70d5f40d6.pdf"
+                    class="btn btn-sm btn-primary" target="_blank"><i class="fe fe-file-text"></i> Panduan</a> <a
+                    href="https://e-resources.perpusnas.go.id/lib/32" class="btn btn-sm btn-primary" target="_blank"><i
+                      class="fe fe-link"></i> Tautan</a>
+                  <!-- <a href="https://www.cambridge.org/core" class="btn btn-primary" target="_blank"> -->
+                </div>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="tile"
+                style="background-image: url(https://e-resources.perpusnas.go.id/assets/terbitan/logo/img20.png);">
+                <div class="hid-image-title">
+                  <p>Britannica Library</p>
+                  <a href="https://e-resources.perpusnas.go.id/assets/terbitan/panduan/1644549937_7a59765485c8d18cf620.pdf"
+                    class="btn btn-sm btn-primary" target="_blank"><i class="fe fe-file-text"></i> Panduan</a> <a
+                    href="https://e-resources.perpusnas.go.id/lib/38" class="btn btn-sm btn-primary" target="_blank"><i
+                      class="fe fe-link"></i> Tautan</a>
+                  <!-- <a href="https://library.ebonline.com" class="btn btn-primary" target="_blank"> -->
+                </div>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="tile"
+                style="background-image: url(https://e-resources.perpusnas.go.id/assets/terbitan/logo/img36.png);">
+                <div class="hid-image-title">
+                  <p>McGraw Hill</p>
+                  <a href="https://e-resources.perpusnas.go.id/assets/terbitan/panduan/1644563061_09c4074088514c777950.pdf"
+                    class="btn btn-sm btn-primary" target="_blank"><i class="fe fe-file-text"></i> Panduan</a> <a
+                    href="https://e-resources.perpusnas.go.id/lib/42" class="btn btn-sm btn-primary" target="_blank"><i
+                      class="fe fe-link"></i> Tautan</a>
+                  <!-- <a href="https://www.mhebooklibrary.com" class="btn btn-primary" target="_blank"> -->
+                </div>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="tile"
+                style="background-image: url(https://e-resources.perpusnas.go.id/assets/terbitan/logo/britannica.png);">
+                <div class="hid-image-title">
+                  <p>Britannica Ebooks</p>
+                  <a href="https://e-resources.perpusnas.go.id/assets/terbitan/panduan/1645071365_a2c0b43b876846f89eb9.pdf"
+                    class="btn btn-sm btn-primary" target="_blank"><i class="fe fe-file-text"></i> Panduan</a> <a
+                    href="https://e-resources.perpusnas.go.id/lib/47" class="btn btn-sm btn-primary" target="_blank"><i
+                      class="fe fe-link"></i> Tautan</a>
+                  <!-- <a href="http://ebooks.eb.com" class="btn btn-primary" target="_blank"> -->
+                </div>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="tile"
+                style="background-image: url(https://e-resources.perpusnas.go.id/assets/terbitan/logo/emerald.png);">
+                <div class="hid-image-title">
+                  <p>Emerald Insight</p>
+                  <a href="https://e-resources.perpusnas.go.id/assets/terbitan/panduan/1644551276_0148d4d8b31a3e24f65f.pdf"
+                    class="btn btn-sm btn-primary" target="_blank"><i class="fe fe-file-text"></i> Panduan</a> <a
+                    href="https://e-resources.perpusnas.go.id/lib/45" class="btn btn-sm btn-primary" target="_blank"><i
+                      class="fe fe-link"></i> Tautan</a>
+                  <!-- <a href="https://www.emeraldinsight.com/action/showPublications?pubType=book&access=user" class="btn btn-primary" target="_blank"> -->
+                </div>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="tile"
+                style="background-image: url(https://e-resources.perpusnas.go.id/assets/terbitan/logo/cnursing.png);">
+                <div class="hid-image-title">
+                  <p>Clinicalkey Nursing</p>
+                  <a href="https://e-resources.perpusnas.go.id/assets/terbitan/panduan/1644562978_e472ffae96080031d35f.pdf"
+                    class="btn btn-sm btn-primary" target="_blank"><i class="fe fe-file-text"></i> Panduan</a> <a
+                    href="https://e-resources.perpusnas.go.id/lib/48" class="btn btn-sm btn-primary" target="_blank"><i
+                      class="fe fe-link"></i> Tautan</a>
+                  <!-- <a href="https://www.clinicalkey.com/nursing" class="btn btn-primary" target="_blank"> -->
+                </div>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="tile"
+                style="background-image: url(https://e-resources.perpusnas.go.id/assets/terbitan/logo/img17.png);">
+                <div class="hid-image-title">
+                  <p>Taylor and Francis</p>
+                  <a href="https://e-resources.perpusnas.go.id/assets/terbitan/panduan/1645062268_a4d1b1c5c9fd56d04f9d.pdf"
+                    class="btn btn-sm btn-primary" target="_blank"><i class="fe fe-file-text"></i> Panduan</a> <a
+                    href="https://e-resources.perpusnas.go.id/lib/13" class="btn btn-sm btn-primary" target="_blank"><i
+                      class="fe fe-link"></i> Tautan</a>
+                  <!-- <a href="https://www.tandfonline.com" class="btn btn-primary" target="_blank"> -->
+                </div>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="tile"
+                style="background-image: url(https://e-resources.perpusnas.go.id/assets/terbitan/logo/img9.png);">
+                <div class="hid-image-title">
+                  <p>IGI Global</p>
+                  <a href="https://e-resources.perpusnas.go.id/assets/terbitan/panduan/1644550511_9ecd87d2a23dccadbdec.pdf"
+                    class="btn btn-sm btn-primary" target="_blank"><i class="fe fe-file-text"></i> Panduan</a> <a
+                    href="https://e-resources.perpusnas.go.id/lib/4" class="btn btn-sm btn-primary" target="_blank"><i
+                      class="fe fe-link"></i> Tautan</a>
+                  <!-- <a href="https://www.igi-global.com/gateway" class="btn btn-primary" target="_blank"> -->
+                </div>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="tile"
+                style="background-image: url(https://e-resources.perpusnas.go.id/assets/terbitan/logo/img6.png);">
+                <div class="hid-image-title">
+                  <p>Cengage Learning</p>
+                  <a href="https://e-resources.perpusnas.go.id/assets/terbitan/panduan/1644914117_84b912e912af05534763.pdf"
+                    class="btn btn-sm btn-primary" target="_blank"><i class="fe fe-file-text"></i> Panduan</a> <a
+                    href="https://e-resources.perpusnas.go.id/lib/7" class="btn btn-sm btn-primary" target="_blank"><i
+                      class="fe fe-link"></i> Tautan</a>
+                  <!-- <a href="https://e-resources.perpusnas.go.id:2050/login/gale" class="btn btn-primary" target="_blank"> -->
+                </div>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="tile"
+                style="background-image: url(https://e-resources.perpusnas.go.id/assets/terbitan/logo/img33.png);">
+                <div class="hid-image-title">
+                  <p>Westlaw Next</p>
+                  <a href="https://e-resources.perpusnas.go.id/assets/terbitan/panduan/1645670944_62861545bef8fc92b671.pdf"
+                    class="btn btn-sm btn-primary" target="_blank"><i class="fe fe-file-text"></i> Panduan</a> <a
+                    href="https://e-resources.perpusnas.go.id/lib/8" class="btn btn-sm btn-primary" target="_blank"><i
+                      class="fe fe-link"></i> Tautan</a>
+                  <!-- <a href="https://e-resources.perpusnas.go.id:2050/login?url=https://www.westlaw.com/search/home.html?rs=IWLN1.0&vr=3.0&sp=PNRI-1000" class="btn btn-primary" target="_blank"> -->
+                </div>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="tile"
+                style="background-image: url(https://e-resources.perpusnas.go.id/assets/terbitan/logo/1598267711_3210c6d0319bbd5081ee.png);">
+                <div class="hid-image-title">
+                  <p>IG Publishing</p>
+                  <a href="https://e-resources.perpusnas.go.id/assets/terbitan/panduan/1644825139_07889415f6296dbbf5c5.pdf"
+                    class="btn btn-sm btn-primary" target="_blank"><i class="fe fe-file-text"></i> Panduan</a> <a
+                    href="https://e-resources.perpusnas.go.id/lib/10" class="btn btn-sm btn-primary" target="_blank"><i
+                      class="fe fe-link"></i> Tautan</a>
+                  <!-- <a href="http://portal.igpublish.com/iglibrary/" class="btn btn-primary" target="_blank"> -->
+                </div>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="tile"
+                style="background-image: url(https://e-resources.perpusnas.go.id/assets/terbitan/logo/img8.png);">
+                <div class="hid-image-title">
+                  <p>Ebsco Host</p>
+                  <a href="https://e-resources.perpusnas.go.id/assets/terbitan/panduan/1644563015_8f282cd584f8278b17c4.pdf"
+                    class="btn btn-sm btn-primary" target="_blank"><i class="fe fe-file-text"></i> Panduan</a> <a
+                    href="https://e-resources.perpusnas.go.id/lib/9" class="btn btn-sm btn-primary" target="_blank"><i
+                      class="fe fe-link"></i> Tautan</a>
+                  <!-- <a href="https://search.ebscohost.com/login.aspx?groupid=main&profile=ehost" class="btn btn-primary" target="_blank"> -->
+                </div>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="tile"
+                style="background-image: url(https://e-resources.perpusnas.go.id/assets/terbitan/logo/img7.png);">
+                <div class="hid-image-title">
+                  <p>ebrary</p>
+                  <a href="https://e-resources.perpusnas.go.id/assets/terbitan/panduan/1645070543_ab9504719fe06647dc41.pdf"
+                    class="btn btn-sm btn-primary" target="_blank"><i class="fe fe-file-text"></i> Panduan</a> <a
+                    href="https://e-resources.perpusnas.go.id/lib/17" class="btn btn-sm btn-primary" target="_blank"><i
+                      class="fe fe-link"></i> Tautan</a>
+                  <!-- <a href="https://site.ebrary.com/lib/perpusnas/home.action" class="btn btn-primary" target="_blank"> -->
+                </div>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="tile"
+                style="background-image: url(https://e-resources.perpusnas.go.id/assets/terbitan/logo/img16.png);">
+                <div class="hid-image-title">
+                  <p>Sage Knowledge</p>
+                  <a href="https://e-resources.perpusnas.go.id/assets/terbitan/panduan/1645493169_594d71033b0da741ea01.pdf"
+                    class="btn btn-sm btn-primary" target="_blank"><i class="fe fe-file-text"></i> Panduan</a> <a
+                    href="https://e-resources.perpusnas.go.id/lib/18" class="btn btn-sm btn-primary" target="_blank"><i
+                      class="fe fe-link"></i> Tautan</a>
+                  <!-- <a href="https://sk.sagepub.com" class="btn btn-primary" target="_blank"> -->
+                </div>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="tile"
+                style="background-image: url(https://e-resources.perpusnas.go.id/assets/terbitan/logo/img4.png);">
+                <div class="hid-image-title">
+                  <p>Brill</p> <a
+                    href="https://e-resources.perpusnas.go.id/assets/terbitan/panduan/1644562834_e8e69e613be6fc86e427.pdf"
+                    class="btn btn-sm btn-primary" target="_blank"><i class="fe fe-file-text"></i> Panduan</a> <a
+                    href="https://e-resources.perpusnas.go.id/lib/23" class="btn btn-sm btn-primary" target="_blank"><i
+                      class="fe fe-link"></i> Tautan</a>
+                  <!-- <a href="https://www.brill.com" class="btn btn-primary" target="_blank"> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,179 @@
+<div class="content node-halaman">
+  <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+    <div class="field-items">
+      <div class="field-item even">
+
+
+        <title></title>
+
+        <style>
+          *,
+          *:before,
+          *:after {
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+          }
+
+          .tile {
+            margin: 1%;
+            width: 45%;
+            height: auto;
+            display: inline-block;
+            background-size: cover;
+            cursor: pointer;
+            position: relative;
+            float: left;
+            padding: 0 0 19% 0;
+            background-repeat: no-repeat;
+            background-size: 50%;
+            background-position: center;
+          }
+
+          .hid-image-title {
+            width: 100%;
+            height: 20%;
+            color: white;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            padding: 0 1rem 1rem !important;
+            font-size: .9em;
+            font-family: "Helvetica";
+            text-align: center;
+            line-height: 1em;
+            background-color: rgba(0, 0, 0, 0.5) !important;
+
+          }
+
+          .tile .hid-image-title {
+            transition: 0.8s ease;
+          }
+
+          /* Hover effect on image tiles */
+
+          .tile:hover .hid-image-title {
+            background-color: rgba(0, 0, 0, 0.8) !important;
+            height: 30%;
+          }
+
+          .tile:hover .hid-image-title .deskripsi-singkat {
+            display: none;
+          }
+
+          .tile:hover .hid-image-title .deskripsi-panjang {
+            display: block;
+          }
+
+          /* Pop up CSS light box */
+          /* Responsive tiles starts here. Breaking points: 1280, 1024, 600, 360 */
+
+          @media screen and (max-width: 1280px) {
+            .image-container .tile {
+              width: 25%;
+              padding-bottom: 25%;
+            }
+          }
+
+          @media screen and (max-width: 1024px) {
+            .image-container .tile {
+              width: 33.33%;
+              padding-bottom: 33.33%;
+            }
+          }
+
+          @media screen and (max-width: 740px) {
+            .image-container .tile {
+              font-size: 0.8em;
+            }
+          }
+
+          @media screen and (max-width: 600px) {
+            .image-container .tile {
+              width: 100%;
+              padding-bottom: 50%;
+              font-size: 0.8em;
+            }
+          }
+
+          @media screen and (max-width: 360px) {
+            .image-container .tile {
+              width: 100%;
+              padding-bottom: 100%;
+            }
+          }
+
+          .hid-image-title h4 {
+            color: #FFFFFF;
+            margin-top: 15px !important;
+          }
+
+          .hid-image-title .deskripsi-singkat {
+            display: block;
+          }
+
+          .hid-image-title .deskripsi-panjang {
+            display: none;
+            text-align: justify;
+          }
+        </style>
+
+
+
+
+        <div class="container-fluid">
+
+          <div class="image-container">
+            <div class="tile" style="background-image: url('https://i.postimg.cc/qvnsyQTs/Site-Stats-amico.png');">
+              <div class="hid-image-title">
+                <h4>Analisis Sistem</h4>
+              </div>
+            </div>
+          </div>
+          <div class="image-container">
+            <div class="tile" style="background-image: url('https://i.postimg.cc/tCnWGD7K/Programming-amico.png');">
+              <div class="hid-image-title">
+                <h4>Pengembangan Perangkat Lunak</h4>
+              </div>
+            </div>
+          </div>
+          <div class="image-container">
+            <div class="tile"
+              style="background-image: url('https://i.postimg.cc/WzhY0KTN/Developer-activity-amico.png');">
+              <div class="hid-image-title">
+                <h4>Penguji Perangkat Lunak</h4>
+              </div>
+            </div>
+          </div>
+          <div class="image-container">
+            <div class="tile"
+              style="background-image: url('https://i.postimg.cc/vH82748q/Software-code-testing-pana.png');">
+              <div class="hid-image-title">
+                <h4>Pemelihara Perangkat Lunak</h4>
+              </div>
+            </div>
+          </div>
+          <div class="image-container">
+            <div class="tile" style="background-image: url('https://i.postimg.cc/bvn0PshN/konsultan.jpg');">
+              <div class="hid-image-title">
+                <h4>Konsultan TI</h4>
+              </div>
+            </div>
+          </div>
+          <div class="image-container">
+            <div class="tile" style="background-image: url('https://i.postimg.cc/s2cLz310/Startup-life-amico-1.png');">
+              <div class="hid-image-title">
+                <h4>Wirausaha</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </div>
+  </div>
+</div>
+</div>
