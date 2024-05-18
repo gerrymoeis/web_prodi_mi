@@ -1,0 +1,684 @@
+:root {
+    --main-color: #002647;
+    --secondary-color: #FFFFFF;
+    --accent-color: #FB8720;
+    --accent-color-2: #DD9933;
+
+    --grey-1: #444;
+    --grey-2: #555;
+    --grey-3: #666;
+    --grey-4: #999;
+
+    --fontsize-h5: 14px;
+}
+
+body,
+html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    font-family: Lexend;
+    margin: 0px;
+    flex-direction: column;
+}
+
+#content {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+/* left */
+.col-left {
+    width: 400px;
+    min-width: 300px;
+    margin: 0px 10px 0px 20px;
+    justify-content: center;
+    background-color: var(--main-color);
+
+    /* display: none; */
+}
+
+.col-left .data p {
+    color: var(--secondary-color);
+    margin-left: 20px;
+}
+
+.col-left hr {
+    border: 1px dashed var(--secondary-color);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.profil {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.profil img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: 0% 0%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50%;
+    margin-top: -20px;
+}
+
+.profil h2 {
+    color: var(--secondary-color);
+    width: 220px;
+    text-align: center;
+}
+
+.profil h3 {
+    color: var(--secondary-color);
+    width: 220px;
+}
+
+.data_departemen {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.data_departemen p {
+    margin-left: 20px;
+    color: var(--secondary-color);
+    width: auto;
+}
+
+.data_kontak {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.data_kontak p {
+    color: var(--secondary-color);
+    margin-left: 20px;
+    width: auto;
+}
+
+.data_link {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+.data_link .container{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.data_link .container a {
+    font-size: 16px;
+    color: var(--secondary-color);
+    width: auto;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.data_link .container .link-active {
+    color: var(--accent-color);
+    text-decoration: underline;
+}
+
+.data_link .iconify-icon {
+    color: var(--accent-color);
+    margin-left: 20px;
+    width: auto;
+    text-decoration: underline;
+}
+
+/* right */
+
+.col-right {
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+
+    width: 900px;
+}
+
+.col-right .container {
+    margin: 0px 80px 0px 40px;
+    /* padding: 0px 80px 0px 0px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.col-right .row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col-right .title {
+    min-width: 250px;
+    max-width: 350px;
+}
+
+.title h2 {
+    margin: 16px 0px 16px 0px;
+    font-size: 24px;
+}
+
+.col-right .row .content {
+    display: block;
+    background-color: var(--secondary-color);
+    width: 100%;
+}
+
+.col-right .artikel .content {
+    background-color: var(--secondary-color);
+    max-height: 800px;
+    padding-right: 30px;
+    padding-left: 20px;
+    /* padding: 0px 30px 0px 20px; */
+    overflow-y: scroll;
+}
+
+.col-right .artikel .button-bar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+
+.col-right .artikel .button-bar button {
+    width: 33.33%;
+}
+
+.col-right .row_keilmuan, .col-right .row_biodata, .col-right .row_pendidikan, .col-right .row_penghargaan, .col-right .row_matkul {
+    display: flex;
+}
+
+.col-right .row_biodata p, .col-right .row_keilmuan p{
+    /* padding-left: 25px; */
+    padding: 0px 0px 0px 25px;
+    margin: 16px 0px;
+}
+
+.col-right .row_biodata p{
+    text-align: justify;
+}
+
+.col-right hr {
+    border: 1px dashed black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.col-right .publikasi h4 {
+    color: #555555;
+    align-items: justify;
+}
+
+.col-right h3 {
+    color: var(--main-color);
+}
+
+.col-right .artikel .content {
+    background-color: #F5F5F5;
+    padding-left: 10px;
+}
+
+.col-right .artikel .content p {
+    color: var(--accent-color);
+}
+
+#content-jurnal {
+    font-family: 'Archivo';
+}
+
+#content-jurnal h1{
+    font-size: 28px;
+    font-weight: 900;
+    margin: 20px 0px;
+}
+
+#content-jurnal h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+#content-jurnal h4, #content-jurnal p{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+
+.tabs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 40px;
+}
+
+.tabs h2 {
+    background-color: var(--secondary-color);
+    text-align: center;
+    margin: 0px;
+    padding: 15px 0;
+    cursor: pointer;
+    color: var(--main-color);
+    border-bottom: 3.5px solid;
+    border-bottom-color: var(--main-color);
+    font-size: 20px;
+    font-weight: normal;
+    transition: all 0.3s ease-in-out;
+}
+
+.tabs .active {
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+}
+
+/* Header */
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    font-family: 'Archivo', sans-serif;
+}
+
+.header hr {
+    border: 2px solid var(--accent-color-2);
+    margin: 0px;
+}
+
+.header .container {
+    display: flex;
+    background-color: var(--main-color);
+}
+
+.header .header-top {
+    padding: 6px 0px 6px 25px;
+    background-color: black;
+}
+
+.header .header-top a {
+    margin-left: 10px;
+    color: var(--secondary-color);
+    opacity: 0.75;
+    text-decoration: none;
+    font-size: 13px;
+
+}
+
+.header .header-main {
+    padding: 5px 0px 5px 30px;
+}
+
+.header .header-main img {
+    height: 60px;
+}
+
+.header .header-bottom {
+    background-image: url(//filkom.ub.ac.id/wp-content/uploads/2021/03/Photo-Resizer-2021_03_05_06_27_32-scaled-e1626305810177.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left top;
+
+    /* padding-left: 40px; */
+    /* padding-bottom: 10px; */
+
+    padding: 0px 0px 10px 40px;
+
+    height: 80px;
+    align-items: flex-end;
+}
+
+.header .header-bottom .container {
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    margin-left: 40px;
+}
+
+.header .header-bottom p,
+.header .header-bottom a {
+    font-size: 12px;
+    height: fit-content;
+    margin: 10px 5px;
+    text-decoration: none;
+}
+
+.header .header-bottom a {
+    color: var(--accent-color);
+}
+
+/* footer */
+.footer {
+    background-color: var(--main-color);
+    font-family: 'Archivo', sans-serif;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.footer hr {
+    border: 2px solid var(--accent-color-2);
+    margin: 0px;
+}
+
+.footer a {
+    color: #AEAEAE;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.footer .link {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.footer .link .content {
+    margin: 0px 10px;
+    background-color: black;
+    padding: 5px 5px;
+    border-left: 1px solid var(--accent-color-2);
+    width: auto;
+}
+
+.footer .link .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.footer .link .container-icon {
+    display: flex;
+    margin: 0px 5px 0px 0px;
+}
+
+.footer .link p {
+    text-align: right;
+}
+
+.footer h4,
+.footer p {
+    color: var(--secondary-color);
+}
+
+.footer h5 {
+    color: var(--secondary-color);
+    margin: 0 0 14px 0;
+    letter-spacing: 1px;
+    font-size: var(--fontsize-h5);
+}
+
+.footer .info_filkom {
+    display: flex;
+    justify-content: center;
+    /* padding: 20px; */
+    margin: 20px 20px 20px 20px
+}
+
+.footer .info_filkom .content {
+    line-height: 25px;
+    width: 100%;
+}
+
+.footer .info_filkom .content a {
+    font-size: 14px;
+}
+
+.footer .kontak_filkom {
+    background-color: #000F20;
+    margin-right: 30px;
+}
+
+.footer .kontak_filkom .container {
+    margin: 5px;
+    padding: 20px 10px 0px 20px;
+}
+
+.footer .kontak_filkom .social{
+    display: flex;
+}
+
+.footer .kontak_filkom .social .a{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.footer .kontak_filkom .social .span{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.footer .kontak_filkom .social .iconify-icon{
+    width: 100%;
+    height: 100%;
+}
+
+.footer #colored_text {
+    color: var(--accent-color);
+}
+
+.footer ul,
+.footer li {
+    color: #AEAEAE;
+    margin-left: -13px;
+}
+
+.footer .copyright {
+    color: var(--secondary-color);
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    font-size: 12px;
+}
+
+/* SMALL PC */
+@media (max-width: 1024px) {
+    .row_biodata, .row_keilmuan, .row_matkul, .row_pendidikan, .row_penghargaan {
+        flex-direction: column;
+    }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 768px) {
+    .header .header-top {
+        display: none;
+    }
+
+    .header .header-main{
+        padding: 5px 0px 5px 10px;
+    }
+
+    .header .header-bottom{
+        padding-left: 0;
+    }
+
+    .header .header-bottom .container{
+        margin-left: 20px;
+    }
+
+    #content {
+        flex-direction: column;
+    }
+
+    .col-left{
+        width: auto;
+        min-width: 150px;
+        max-width: 100%;
+        margin: 0px 20px 0px 20px;
+    }
+
+    .profil img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .profil h2 {
+        width: 80%;
+        font-size: 32px;
+        margin: 20px 0px 10px 0px;
+    }
+
+    .profil h3 {
+        width: 60%;
+        font-size: 20px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .col-right {
+        width: auto;
+        max-width: 100%;
+        margin: 30px 30px 0px 30px;
+    }
+
+    .col-right .container{
+        margin: 0px;
+        padding: 0px 20px;
+    }
+
+    .footer .link {
+        flex-direction: column;
+        padding: 10px 40px;
+    }
+
+    .footer .link .content {
+        margin: 10px 0px;
+    }
+
+    .footer .link .container-icon {
+        margin: 0px 10px 0px 10px;
+    }
+
+    .footer .info_filkom {
+        flex-direction: column;
+        max-width: 100%;
+        min-width: 360px;
+    }
+
+    .footer .info_filkom .kontak_filkom {
+        margin: 0px 0px 20px 0px;
+    }
+
+    .footer .info_filkom .kontak_filkom .container {
+        padding: 20px 0px 0px 20px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .header .header-main img {
+        height: 48px;
+    }
+
+    .profil img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .profil h2 {
+        font-size: 24px;
+        margin: 20px 0px 10px 0px;
+    }
+
+    .profil h3 {
+        font-size: 16px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .data_kontak p {
+        font-size: 12px;
+    }
+
+    .col-right {
+        width: auto;
+        max-width: 100%;
+        margin: 20px 20px 0px 20px;
+    }
+
+    .col-right .container{
+        margin: 0px;
+        padding: 0px 10px;
+    }
+
+    .col-right .row_keilmuan, .col-right .row_biodata, .col-right .row_pendidikan, .col-right .row_penghargaan, .col-right .row_matkul {
+        display: flex;
+    }
+    
+    .col-right .row_biodata p, .col-right .row_keilmuan p{
+        padding-left: 10px;
+        margin: 0px 10px 10px 0px;
+        font-size: 14px;
+    }
+
+    .col-right .row_pendidikan li, .col-right .row_penghargaan li, .col-right .row_matkul li {
+        font-size: 14px;
+    }
+
+    .col-right .row_pendidikan ul, .col-right .row_penghargaan ul, .col-right .row_matkul ul {
+        margin: 10px 0px 10px 0px;
+        padding: 0px 0px 0px 30px;
+    }
+
+    .col-right .row_pendidikan h3, .col-right .row_pendidikan p {
+        margin: 10px 0px 5px 0px;
+    }
+
+    .title h2 {
+        margin: 10px 0px 10px 0px;
+        font-size: 18px;
+    }
+
+    #content-jurnal h1{
+        font-size: 20px;
+    
+    }
+
+    #content-jurnal h3{
+        font-size: 16px;
+    
+    }
+
+    #content-jurnal h4, #content-jurnal p{
+        font-size: 12px;
+    
+    }
+
+    .tabs h2 {
+        padding: 10px 10px;
+        font-size: 16px;
+    }
+
+    .tabs .active {
+        background-color: var(--main-color);
+        color: var(--secondary-color);
+    }
+
+    .footer .info_filkom {
+        min-width: 200px;
+    }
+
+    .footer .info_filkom .kontak_filkom {
+        margin: 0px 0px 10px 0px;
+    }
+
+    .footer .info_filkom .kontak_filkom .container{
+        padding: 10px 0px 0px 10px;
+        width: 260px;
+    }
+}
